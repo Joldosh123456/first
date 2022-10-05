@@ -1,0 +1,347 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto";
+}
+.f {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  background-color: #f4f4f4;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+.container {
+  width: 85%;
+  margin: auto;
+  /* display: flex; */
+  /* align-items: center; */
+}
+.log {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.log img {
+  height: 25px;
+}
+header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  align-content: space-between;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+.aaa {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.j img {
+  width: 1250px;
+}
+.j {
+  width: 80%;
+  margin: auto 0;
+  margin-left: 15px;
+  padding-top: 10vh;
+}
+.text {
+  display: flex;
+  padding: 0 55px;
+  justify-content: space-around;
+  gap: 50px;
+}
+.left {
+  width: 35%;
+}
+.ltxt {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1a1a1a;
+  margin: 25px;
+}
+.right {
+  width: 55%;
+}
+.rtxt {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #aaaaaa;
+}
+.i {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1a1a1a;
+  padding: 15vh 0;
+}
+.i .itop {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-left: auto;
+}
+.i .ibottom {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-left: auto;
+}
+.txtt {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #1a1a1a;
+}
+.txtb {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #4a4a4a;
+}
+.container .icon {
+  width: 65%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 15vh 0;
+}
+.icon img {
+  padding: 50px 10px;
+  margin: 0 auto;
+  width: 18vh;
+}
+.ii img {
+  width: 100%;
+}
+.ii {
+  padding: 15vh 0;
+}
+.qt {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: #1a1a1a;
+}
+.qb {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  /* identical to box height, or 86% */
+
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+
+  color: #46856e;
+}
+.qdiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 80px;
+}
+.container .qdiv div {
+  width: 25%;
+}
+.qtxt {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+
+  color: #1a1a1a;
+}
+.qtxt2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #aaaaaa;
+}
+.s {
+  background-image: url(./images/starph.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 90%;
+  margin: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.s .sr {
+  width: 25%;
+  padding-left: 20vh;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+
+  color: #ffffff;
+}
+.p {
+  padding-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 12px;
+  /* identical to box height, or 75% */
+
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.bdiv {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 52px;
+  /* or 113% */
+
+  color: #aaaaaa;
+  margin: 30vh;
+}
+.bdiv p + p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 52px;
+  /* identical to box height, or 113% */
+
+  color: #000000;
+}
+.u {
+  display: flex;
+  padding: 5vh 0;
+  align-items: center;
+  /* justify-content: center; */
+}
+.uright {
+  width: 40%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+.uleft {
+  width: 55%;
+  /* border: 1px solid red; */
+}
+.u img {
+  width: 700px;
+  height: 670px;
+}
+.u p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height, or 112% */
+
+  color: #1a1a1a;
+}
+.u p + p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #aaaaaa;
+}
+.uright div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+}
+.v {
+  background-image: url(./images/vbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+.v .vmain {
+  display: flex;
+  justify-content: space-evenly;
+}
+.vhead {
+  display: flex;
+  justify-content: center;
+}
+.vvv div {
+  display: flex;
+  justify-content: center;
+}
+#menu {
+  display: none;
+}
+@media (max-width: 576px) {
+  #menu {
+    display: block;
+  }
+  .aaa {
+    display: none;
+  }
+  .log {
+    display: none;
+  }
+  .f {
+    justify-content: center;
+  }
+  .j img {
+    width: 300px;
+  }
+}
